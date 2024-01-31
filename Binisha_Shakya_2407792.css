@@ -1,0 +1,182 @@
+ /* Student name Binisha Shakya  */
+ /* Student id: 2407792   */
+
+body{
+    margin: 0;
+    font-family: 'Libre Baskerville', serif;
+    background: #547f7a;
+    background-image: url('https://images.unsplash.com/photo-1523175347343-52d8867ca0bd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    font-size: 120%;
+
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.panel{
+    background-color: rgba(51, 103, 105, 0.245);
+    color: rgb(120, 255, 255);
+    padding: 14px;
+    width: 50%;
+    max-width: 450px;
+    margin: 2em 2em;
+    border-radius: 34px;
+    box-shadow: 0 4px 8px rgba(7, 14, 16, 0.967);
+    transition: background-color 0.3s ease;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    display: inline-block;
+}
+
+.panel:hover {
+    background-color: rgba(108, 157, 169, 0.16);
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2em;
+    padding: 2em;
+    color: #547f7a;
+}
+
+.search-bar{
+    border: none;
+    outline-style: none;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    background: #28779147;
+    color: rgb(2, 48, 52);
+    font-family: inherit;
+    font-size: 100%;
+    width: calc(100%-100px);
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar:hover{
+    background: #44b3db55;
+}
+
+button:hover{
+    background: #2d5f7255;
+
+}
+button{
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 44px;
+    width: 44px;
+    outline: none;
+    background-color: #cedce1a3;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+h4 { 
+    font-style: bold;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+ul {
+    list-style-type: none;
+
+}
+#temp-box{
+    color: rgb(236, 241, 242);
+    padding-left: 2em 2em;
+    margin: 2em 2em;
+    background-color: rgba(51, 103, 105, 0.245);
+    border-radius: 34px;
+    padding: 14px;
+    box-shadow: 0 4px 8px rgba(1, 28, 34, 0.967);
+  
+}
+#temp-box:hover{
+    background-color: rgba(108, 157, 169, 0.16);
+    transition: background-color 0.3s ease;
+}
+.search-bar{
+    background-color: rgba(211, 225, 237, 0.704);
+}
+
+.info{
+    margin-top:1em;
+}
+
+.h2{ text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.city-time{
+    display: inline;
+    
+}
+.temp{
+    display: inline-flex;
+ 
+}
+.name{
+    color:  rgb(120, 255, 255);
+    justify-items: center;
+    align-items: center;
+}
+
+footer
+{
+    position: fixed;
+    bottom: 0;
+    margin: 1em;
+    color: rgb(178, 188, 188);
+    background-color: rgba(55, 107, 116, 0.456);
+    border: 2em;
+    width: 70%;
+    text-align: center;
+    height: 40px;
+    padding: 10px;
+    border-radius: 45px;
+}
+
+.ul #desciption{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.display{
+    max-width: 85rem;
+    border: 2px solid ;
+    color: rgb(236, 241, 242);
+    padding-left: 2em 2em;
+    margin: 2em 2em;
+    background-color: rgba(51, 103, 105, 0.245);
+    border-radius: 34px;
+    padding: 14px;
+    box-shadow: 0 4px 8px rgba(1, 28, 34, 0.967);
+    display: flex;
+}
+.forecast{
+    height: 20rem;
+    width: 10rem;
+    border: 2px solid ;
+    color: rgb(236, 241, 242);
+    margin: 20px;
+    background-color: rgba(51, 103, 105, 0.245);
+    border-radius: 34px;
+    padding: 14px;
+    box-shadow: 0 4px 8px rgba(1, 28, 34, 0.967);
+}
